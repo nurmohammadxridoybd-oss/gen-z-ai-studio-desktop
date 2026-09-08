@@ -1,6 +1,6 @@
 const { app, BrowserWindow, shell, session } = require("electron");
 
-const WEBSITE_URL = "https://gen-z-aistudio.netlify.app/";
+const WEBSITE_URL = "https://stockmeta.ai.studio/";
 
 function createWindow() {
   const win = new BrowserWindow({
