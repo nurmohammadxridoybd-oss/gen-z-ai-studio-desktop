@@ -1,4 +1,5 @@
 const { app, BrowserWindow, shell, session } = require("electron");
+const path = require("path");
 
 const WEBSITE_URL = "https://stockmeta.ai.studio/";
 
@@ -10,6 +11,9 @@ function createWindow() {
     minHeight: 650,
 
     title: "Gen Z AI Studio",
+
+    // Application icon
+    icon: path.join(__dirname, "assets", "icon.ico"),
 
     webPreferences: {
       contextIsolation: true,
