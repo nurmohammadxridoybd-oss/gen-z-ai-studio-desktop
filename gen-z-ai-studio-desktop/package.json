@@ -21,9 +21,11 @@
     },
     "files": [
       "main.js",
-      "package.json"
+      "package.json",
+      "assets/icon.ico"
     ],
     "win": {
+      "icon": "assets/icon.ico",
       "target": [
         {
           "target": "nsis",
