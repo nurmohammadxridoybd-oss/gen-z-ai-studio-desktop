@@ -1,6 +1,6 @@
 const { app, BrowserWindow, shell, session } = require("electron");
 
-const WEBSITE_URL = "https://stockmeta.ai.studio/";
+const WEBSITE_URL = "https://gen-z-stock.ai.studio/";
 
 function createWindow() {
   const win = new BrowserWindow({
